@@ -6,3 +6,18 @@ conda create -n cancerdvc python=3.8 -y
 conda activate cancerdvc
 create requirements.txt
 write setup.py code
+run pip install -r requirements.txt  
+create logging in src>chestClassifier>__init__
+create coomon.py file in utlities this is used for those which commonly used
+
+workflow
+Update config.yaml
+Update secrets.yaml [Optional]
+Update params.yaml
+Update the entity
+Update the configuration manager in src config
+Update the components
+Update the pipeline
+Update the main.py
+Update the dvc.yaml
+
