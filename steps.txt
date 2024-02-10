@@ -2,4 +2,7 @@ create a git hub repository
 close the repositry in local folder
 create template.py
 run python template.py on terminal
+conda create -n cancerdvc python=3.8 -y
+conda activate cancerdvc
 create requirements.txt
+write setup.py code
