@@ -21,3 +21,11 @@ Update the pipeline
 Update the main.py
 Update the dvc.yaml
 
+update config_entity inside it write code for dataingestion,prepare basemodel,training config
+update configuration.py
+add file in components and add prepare_base_model
+create a file on pipeline stage_02_prepare_base_model.py
+now update main.py
+
+
+
