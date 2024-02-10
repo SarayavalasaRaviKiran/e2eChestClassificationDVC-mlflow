@@ -28,5 +28,23 @@ create a file on pipeline stage_02_prepare_base_model.py
 now update main.py
 
 
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False
+EPOCHS: 1
+CLASSES: 2
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/SarayavalasaRaviKiran/e2eChestClassificationDVC-mlflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=SarayavalasaRaviKiran 
+
+export MLFLOW_TRACKING_PASSWORD=0bb649de7fae7831ac42d6062897c651d9a5ea65
+MLFLOW_TRACKING_URI=https://dagshub.com/SarayavalasaRaviKiran/e2eChestClassificationDVC-mlflow.mlflow \
+MLFLOW_TRACKING_USERNAME=SarayavalasaRaviKiran \
+MLFLOW_TRACKING_PASSWORD=0bb649de7fae7831ac42d6062897c651d9a5ea65 \
+python script.py
 
 
